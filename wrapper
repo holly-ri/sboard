@@ -1,0 +1,17 @@
+파일업로드와 검색 페이징 기능을 이용한 게시판기능 구현
+controller
+<login>
+join=> post,get으로 받아주어 회원가입이 가능하게 해줍니다.
+login=> post,get으로 회원가입정보를 받아주어 서브스쪽으로 넘겨줍니다.
+
+service
+<member>
+selectMemberInsert=> 회원가입 수행
+
+vo
+LoginForm=> 로그인회원정보
+Member=> 회원정보
+
+view
+join=> 회원가입view입니다.
+login=> 로그인view입니다.
